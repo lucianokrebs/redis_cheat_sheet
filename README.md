@@ -32,6 +32,20 @@ redis-cli
 
 ## Insert values
 
+Insert string:
+
 ```
 SET users:101:timezone UTC-3
+```
+
+Insert string with [TTL](https://en.wikipedia.org/wiki/Time_to_live) of 10 seconds:
+
+```
+SET usage:63 '{"user": 123, "balance": 123}'  EX 10
+```
+
+Discover TTL of a key before it expires:
+
+```
+TTL usage:63
 ```
