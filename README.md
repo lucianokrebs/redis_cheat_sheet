@@ -2,11 +2,11 @@
 
 One more redis cheat sheet to help decrease the learning curve to use Redis
 
-## Recommended GUI
+### Recommended GUI
 
 1. RedisInsight | [Link](https://redislabs.com/redis-enterprise/redis-insight/)
 
-## Running redis with docker
+### Running redis with docker
 
 1. Create a docker volume to store redis data:
 
@@ -30,7 +30,7 @@ redis-cli
 
 ![img.png](images/redis-cli.png)
 
-## Insert values
+### Basic commands
 
 Insert string:
 
@@ -48,4 +48,29 @@ Discover TTL of a key before it expires:
 
 ```
 TTL usage:63
+```
+
+Check if a key exists. It will return `0` or `1`:
+
+```
+EXISTS user:23:visit-count
+```
+
+Increment or create a value if the key doesn't exist:
+
+```
+INCR user:23:visit-count
+```
+
+Increment a key by a specific value - will return the total number:
+
+```
+INCRBY user:23:visit-count 10
+INCRBY user:23:visit-count -57
+```
+
+Delete one or more keys - will return the number of deleted keys:
+
+```
+DEL user:23:visit-count user:24:visit-count
 ```
