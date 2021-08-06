@@ -1,0 +1,9 @@
+version: '3'
+services:
+  redis-db:
+    image: redislabs/redismod
+    ports:
+      - "6379:6379"
+    volumes:
+      - "/var/lib/docker/volumes/redis_data/_data:/data"
+    entrypoint: "redis-server --appendonly yes"
