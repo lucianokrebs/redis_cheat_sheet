@@ -74,3 +74,8 @@ Delete one or more keys - will return the number of deleted keys:
 ```
 DEL user:23:visit-count user:24:visit-count
 ```
+
+### Resources:
+
+- [X] [Redis Strings Explained](https://www.youtube.com/watch?v=n0LQREq4GrY&list=PLratyGi2ixLvYgh1fmCvwJwk8nc6y0gXr&index=2)
+- [ ] [Redis Hashes Explained](https://www.youtube.com/watch?v=-agsJUihrWw&list=PLratyGi2ixLvYgh1fmCvwJwk8nc6y0gXr&index=2)
