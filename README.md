@@ -79,3 +79,6 @@ DEL user:23:visit-count user:24:visit-count
 
 - [X] [Redis Strings Explained](https://www.youtube.com/watch?v=n0LQREq4GrY&list=PLratyGi2ixLvYgh1fmCvwJwk8nc6y0gXr&index=2)
 - [ ] [Redis Hashes Explained](https://www.youtube.com/watch?v=-agsJUihrWw&list=PLratyGi2ixLvYgh1fmCvwJwk8nc6y0gXr&index=2)
+- [ ] [Redis Sets Explained](https://www.youtube.com/watch?v=6Pjz819sT7M&list=PLratyGi2ixLvYgh1fmCvwJwk8nc6y0gXr&index=5)
+- [ ] [Redis Sorted Sets Explained](https://www.youtube.com/watch?v=XqSK-4oEoAc&list=PLratyGi2ixLvYgh1fmCvwJwk8nc6y0gXr&index=4)
+- [ ] [Redis Bitmaps Explained](https://www.youtube.com/watch?v=5fmyc5lkwD4&list=PLratyGi2ixLvYgh1fmCvwJwk8nc6y0gXr&index=8)
