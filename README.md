@@ -77,6 +77,7 @@ DEL user:23:visit-count user:24:visit-count
 
 ### Resources:
 
+- [ ] [Try Redis](https://try.redis.io/)
 - [X] [Redis Strings Explained](https://www.youtube.com/watch?v=n0LQREq4GrY&list=PLratyGi2ixLvYgh1fmCvwJwk8nc6y0gXr&index=2)
 - [ ] [Redis Hashes Explained](https://www.youtube.com/watch?v=-agsJUihrWw&list=PLratyGi2ixLvYgh1fmCvwJwk8nc6y0gXr&index=2)
 - [ ] [Redis Sets Explained](https://www.youtube.com/watch?v=6Pjz819sT7M&list=PLratyGi2ixLvYgh1fmCvwJwk8nc6y0gXr&index=5)
